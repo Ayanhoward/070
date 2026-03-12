@@ -9,7 +9,7 @@ body {
     background: linear-gradient(-45deg, #e3e3e3, #ffffff, #dcdcdc, #ffffff);
     background-size: 400% 400%;
     animation: gradientMove 15s ease infinite;
-    background: #fff url(/videoframe_11466.png) repeat left top;
+    background: #fff url(videoframe_11466.png) repeat left top;
     margin: 0;
     padding: 0;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -32,7 +32,7 @@ a:link {
     padding: 0 0 1px 0; 
     text-decoration: none;
     color: #CC3300;
-    background-image: url(/underline.gif);
+    background-image: url(underline.gif);
     background-repeat: repeat-x;
     background-position: bottom left;
     transition: color 0.3s ease; /* Added: smooth color transition */
@@ -41,7 +41,7 @@ a:visited {
     text-decoration: none; 
     color: #666666;
     padding: 0 0 2px 0;
-    background-image: url(/underline.gif);
+    background-image: url(underline.gif);
     background-repeat: no-repeat;
     background-position: bottom left;
 }
@@ -56,7 +56,7 @@ abbr {
 
 /* specific divs */
 .page-wrapper {
-    background: url(/ContentBG.gif) repeat-y left top;
+    background: url(ContentBG.gif) repeat-y left top;
     margin:0px auto;
     text-align:left;
     width: 780px;
@@ -67,12 +67,12 @@ abbr {
     position: relative;
 }
 header {    
-    background-image: url(/CSZenLogo.gif);
+    background-image: url(CSZenLogo.gif);
     background-repeat: no-repeat;
     background-position: left;
     height: 444px;
     z-index:99;
-	animation: float 4s ease-in-out infinite;
+    animation: float 4s ease-in-out infinite;
 }
 
 header h1, header h2 {
@@ -80,7 +80,7 @@ header h1, header h2 {
 }
 
 .preamble {
-    background-image: url(/RoadToEnlightmentBG_2.gif);
+    background-image: url(RoadToEnlightmentBG_2.gif);
     background-repeat: no-repeat;
     background-position: right bottom;
     width: 405px;
@@ -99,7 +99,7 @@ header h1, header h2 {
     margin: 0;  
 }
 .preamble p:nth-child(2) {
-    background-image: url(/RoadToEnlightmentBG_1.gif);
+    background-image: url(RoadToEnlightmentBG_1.gif);
     background-repeat: no-repeat;
     background-position: right top;
     padding-top: 10px;
@@ -123,10 +123,10 @@ header h1, header h2 {
     margin: 40px 0px 0px 30px;
     animation: fadeIn 1.5s ease-out; /* Added: animation */
 }
-.explanation { background-image: url(/SoWhatIsThisAbout.gif); }
-.participation { background-image: url(/Participation.gif); margin-left: 150px; }
-.benefits { background-image: url(/Benefits.gif); margin-left: 195px; }
-.requirements { background-image: url(/Requirements.gif); margin-left: 140px; }
+.explanation { background-image: url(SoWhatIsThisAbout.gif); }
+.participation { background-image: url(Participation.gif); margin-left: 150px; }
+.benefits { background-image: url(Benefits.gif); margin-left: 195px; }
+.requirements { background-image: url(Requirements.gif); margin-left: 140px; }
 
 .explanation h3, .participation h3, .benefits h3, .requirements h3 { display: none; }
 .explanation p { margin: 0px 50px 0px 280px; }
@@ -137,7 +137,7 @@ header h1, header h2 {
 .sidebar {
     margin: 40px auto;
     padding: 0px;
-    background-image: url(/NavBG.gif);
+    background-image: url(NavBG.gif);
     background-repeat: no-repeat;
     background-position: left bottom;
     width: 729px;
@@ -145,7 +145,7 @@ header h1, header h2 {
 }
 
 .sidebar .wrapper {
-    background-image: url(/NavBG_top.gif);
+    background-image: url(NavBG_top.gif);
     background-repeat: no-repeat;
     background-position: left top;
     width: 729px;
@@ -161,16 +161,16 @@ header h1, header h2 {
     display: inline;
     list-style-image: none; 
 }
-.sidebar li:after {content:url(/Bullet.gif); }
+.sidebar li:after {content:url(Bullet.gif); }
 
 .design-selection, .design-archives, .zen-resources { 
     background-position: left top;
     background-repeat: no-repeat;
     margin: 10px 0 10px 20px;
 }
-.design-selection { background-image: url(/SelectADesign.gif); }
-.design-archives { background-image: url(/Archive.gif); padding: 8px 0; }
-.zen-resources { background-image: url(/Resources.gif); padding: 8px 0; }
+.design-selection { background-image: url(SelectADesign.gif); }
+.design-archives { background-image: url(Archive.gif); padding: 8px 0; }
+.zen-resources { background-image: url(Resources.gif); padding: 8px 0; }
 
 .design-selection h3, .design-archives h3, .zen-resources h3 { display: none; }
 
@@ -181,7 +181,7 @@ header h1, header h2 {
     margin: 0 auto;
     width: 96px;
     height: 206px;
-    background-image: url(/Dragon.gif);
+    background-image: url(Dragon.gif);
     animation: float 4s ease-in-out infinite; /* Added: Floating animation */
 }
 
