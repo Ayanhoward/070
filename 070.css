@@ -63,11 +63,12 @@ abbr {
     padding: 0px;
     border-bottom: 1px solid #000;
 }
+
 .intro {
     position: relative;
 }
 header {    
-    background-image: url(CSZenLogo.gif);
+    background-image: url(logo.png);
     background-repeat: no-repeat;
     background-position: left;
     height: 444px;
@@ -92,10 +93,21 @@ header h1, header h2 {
     font-size: x-small;
     font-style: italic;
     letter-spacing: 2px;
+    animation: fadePulse 6s ease-in-out infinite;
+}
+
+/* Add this block to define how the animation behaves */
+@keyframes fadePulse {
+    0%, 100% {
+        opacity: 1; /* Fully visible at start and end */
+    }
+    50% {
+        opacity: 0.3; /* Faded at the midpoint */
+    }
 }
 .preamble h3 { display: none; }
 .preamble p {
-    padding: 8px 70px 0px 70px;
+    padding: 8px 70px 10px 70px;
     margin: 0;  
 }
 .preamble p:nth-child(2) {
