@@ -1,0 +1,192 @@
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+body {
+    color: #000000;
+    
+    background: linear-gradient(-45deg, #e3e3e3, #ffffff, #dcdcdc, #ffffff);
+    background-size: 400% 400%;
+    animation: gradientMove 15s ease infinite;
+    background: #fff url(/videoframe_11466.png) repeat left top;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+/* Animations */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+a:link {
+    padding: 0 0 1px 0; 
+    text-decoration: none;
+    color: #CC3300;
+    background-image: url(/underline.gif);
+    background-repeat: repeat-x;
+    background-position: bottom left;
+    transition: color 0.3s ease; /* Added: smooth color transition */
+}
+a:visited { 
+    text-decoration: none; 
+    color: #666666;
+    padding: 0 0 2px 0;
+    background-image: url(/underline.gif);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+a:hover, a:active { 
+    text-decoration: none; 
+    color: #FF0000;
+    background-image: none;
+}
+abbr {
+    border-bottom: none;
+}
+
+/* specific divs */
+.page-wrapper {
+    background: url(/ContentBG.gif) repeat-y left top;
+    margin:0px auto;
+    text-align:left;
+    width: 780px;
+    padding: 0px;
+    border-bottom: 1px solid #000;
+}
+.intro {
+    position: relative;
+}
+header {    
+    background-image: url(/CSZenLogo.gif);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 444px;
+    z-index:99;
+	animation: float 4s ease-in-out infinite;
+}
+
+header h1, header h2 {
+    display: none;
+}
+
+.preamble {
+    background-image: url(/RoadToEnlightmentBG_2.gif);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    width: 405px;
+    position: absolute;
+    left: 410px;
+    top: 15px;
+    margin: 0;
+    padding: 0;
+    font-size: x-small;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+.preamble h3 { display: none; }
+.preamble p {
+    padding: 8px 70px 0px 70px;
+    margin: 0;  
+}
+.preamble p:nth-child(2) {
+    background-image: url(/RoadToEnlightmentBG_1.gif);
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-top: 10px;
+}
+
+.summary {
+    position: absolute;
+    font-size: x-small;
+    left: 38px;
+    top: 515px;
+    width: 250px;
+    z-index: 5;
+    text-align: right;
+    letter-spacing: 2px;
+}
+ 
+/* Content sections with fade-in animation */
+.explanation, .participation, .benefits, .requirements { 
+    background-position: left top;
+    background-repeat: no-repeat;
+    margin: 40px 0px 0px 30px;
+    animation: fadeIn 1.5s ease-out; /* Added: animation */
+}
+.explanation { background-image: url(/SoWhatIsThisAbout.gif); }
+.participation { background-image: url(/Participation.gif); margin-left: 150px; }
+.benefits { background-image: url(/Benefits.gif); margin-left: 195px; }
+.requirements { background-image: url(/Requirements.gif); margin-left: 140px; }
+
+.explanation h3, .participation h3, .benefits h3, .requirements h3 { display: none; }
+.explanation p { margin: 0px 50px 0px 280px; }
+.participation p { margin: 0px 50px 0px 160px; }
+.benefits p { margin: 0px 50px 0px 115px; }
+.requirements p { margin: 0px 50px 0px 170px; }
+
+.sidebar {
+    margin: 40px auto;
+    padding: 0px;
+    background-image: url(/NavBG.gif);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    width: 729px;
+    font-size: xx-small;
+}
+
+.sidebar .wrapper {
+    background-image: url(/NavBG_top.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 729px;
+    padding: 5px 0px;
+}
+.sidebar ul {
+    display: block;
+    padding: 0px 60px 0px 120px;
+    margin: 0;   
+    line-height: 20px;
+}   
+.sidebar li {   
+    display: inline;
+    list-style-image: none; 
+}
+.sidebar li:after {content:url(/Bullet.gif); }
+
+.design-selection, .design-archives, .zen-resources { 
+    background-position: left top;
+    background-repeat: no-repeat;
+    margin: 10px 0 10px 20px;
+}
+.design-selection { background-image: url(/SelectADesign.gif); }
+.design-archives { background-image: url(/Archive.gif); padding: 8px 0; }
+.zen-resources { background-image: url(/Resources.gif); padding: 8px 0; }
+
+.design-selection h3, .design-archives h3, .zen-resources h3 { display: none; }
+
+.extra1 {   
+    position: relative; 
+    top: -225px;
+    left: -360px;
+    margin: 0 auto;
+    width: 96px;
+    height: 206px;
+    background-image: url(/Dragon.gif);
+    animation: float 4s ease-in-out infinite; /* Added: Floating animation */
+}
+
+footer {
+    padding-left: 160px;
+    font-size: x-small;
+    margin-top: -13px;
+}
