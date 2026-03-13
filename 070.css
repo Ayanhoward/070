@@ -63,7 +63,6 @@ abbr {
     padding: 0px;
     border-bottom: 1px solid #000;
 }
-
 .intro {
     position: relative;
 }
@@ -94,15 +93,14 @@ header h1, header h2 {
     font-style: italic;
     letter-spacing: 2px;
     animation: fadePulse 6s ease-in-out infinite;
+    
 }
-
-/* Add this block to define how the animation behaves */
 @keyframes fadePulse {
     0%, 100% {
-        opacity: 1; /* Fully visible at start and end */
+        opacity: 1; 
     }
     50% {
-        opacity: 0.3; /* Faded at the midpoint */
+        opacity: 0.3; 
     }
 }
 .preamble h3 { display: none; }
@@ -115,7 +113,11 @@ header h1, header h2 {
     background-repeat: no-repeat;
     background-position: right top;
     padding-top: 10px;
+    animation: fadePulse 6s ease-in-out infinite;
 }
+
+
+
 
 .summary {
     position: absolute;
